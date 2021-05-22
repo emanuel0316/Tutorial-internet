@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <!--**Lo de abajo es para que reconozca tildes y la "ñ"-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>*Titulo original*</title>
+</head>
+
+<body>
+<!--Cosas para escribir-->
+    <h3>Títulos/Subtítulos<h3>
+    <p>Este sirve de parrafos</p>
+    <b>Negrita, simplemente</b>
+    <i>Letra inclinada</i>
+    <p>"br" para hacer <br> saltos de linea</p>
+    <strike>Letra tachada</strike>
+    <small>Letra pequeña</small>
+    <!--*nota* los metodos como "<h1><h1/> ocupan toda la linea en la que se ubica, en cambio, las otras solo cuanto diga la frase"-->
+<!--Redireccionar:-->
+    <a href="https://Instagram.com">Redireccionando...</a>
+    <!--*importante* Poner antes de la direcccion "https://", si no, NO FUNCIONA-->
+
+    <a href="Archivo a direccionar.html"> Archivo de pagina en pc</a>
+    <!--*El archivo tiene que estar en la misma carpeta del programa, si esta en otra carpeta, poner lo siguiente: *nombre carpeta* / *nombre archivo*. En caso de que este una carpeta atras, poner, ../*nombre archivo*-->
+    <a href="carpeta innecesaria/otra innecesaria/Pagina_practica.html" target="_blank">Redireccion en otra pestaña</a>
+    <!--**se usa "target="_blank" para redireccionar a otra pestaña-->
+
+    <h4> <a href="carpeta innecesaria/otra innecesaria/Pagina_practica.html">Pagina de práctica</a> </h4>
+
+<!--Listas-->
+    <h1>Lista desordenada</h1>
+
+    <!--**Metodo "<ul>" Es el contenedor de la lista SIN ORDEN-->
+    <ul>
+        <!--**Metodo "<li>" para escribir los objetos que va a tener la lista-->
+
+        <li>Pan</li>
+        <li>leche</li>
+        <li>Azucar</li>
+    </ul>
+    <h1>Lista ordenada</h1>
+    <!--**Metodo "<ol>" para contenedor EN ORDEN-->
+    <ol>
+        <li>Pan</li>
+        <li>leche</li>
+        <li>Azucar</li>
+    </ol>
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <h4>Insertar imagen</h4>
+        <p><b>Imagen Buscada:</b></p>
+        <!--** El metodo "<img>" va afuera del parrafo, si no se pone en la misma linea del texto-->
+        <!--**Si cierran el dominio, la imagen no aparecerá-->
+            <img src="https://static.wikia.nocookie.net/disney/images/8/82/Nemo.png/revision/latest?cb=20130819182247&path-prefix=es">
+
+        <p><b><i>Imagen en el computador:</i></b></p>
+            <!--**La imagen se busca del mismo modo en el que se abren archivos, para cambiar el tamaño se usa "width" y "height" (recordar que el tamaño se mide en pixeles -> "px")-->
+            <img src="carpeta innecesaria/otra innecesaria/Imagen.jpg" width="100px">
+        <!--*NOTA IMPORTANTE* si modificamos en tamaño acá, en css, no se va a poder modificar-->
+    <h4>Insertar video</h4>
+        <p>Video buscado:</p>
+        <!--**Este emtodo si es necesario cerrarlo, no como en <img>-->
+        <!--**tiene que estar en la misma carpeta, si no hay que indicar la direccion-->
+            <video src="EPIC.mp4">
+
+            </video>
+
+</body>
+</html>
