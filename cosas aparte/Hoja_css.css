@@ -1,0 +1,20 @@
+/*para acceder a id se usa "#", para clase se usa "." y ya para todo un tipo de elemento se usa el nombre, por ejemplo "h2" y se va a colorear todos los h2*/
+
+/*PD: rgba tiene la opcion de cambiar la opacidad de la informacion, en cambio "rgb" NO*/
+
+#redes {
+    color: rgba(98, 209, 243, 0.5);
+}
+/*Tambien se puede por atributo, por ejemplo [nombre_atributo="valor_atributo"] obviamente predefinido en html*/
+
+/*si no queres utilicar id o clase, tambien se pude poner de la siguiente forma*/
+select option {
+    color: rgb(153, 228, 13);
+}
+/*De esta manera se pintan todos los "<option>" que estan en un "<select>", si estan guardados los "<option>"en, por ejemplo un <h2> no de va a pintar*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/*Para que cambie cuando pasa el mouse encima, primero seleccionas lo que quieres cambiar (lo que acabamos de ver con id, clase, etc.)*/
+
+b:hover {
+    color: rgba(rgb(80, 13, 110), rgb(0, 128, 100), rgb(11, 11, 109));
+}
